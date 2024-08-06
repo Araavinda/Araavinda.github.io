@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="../style.CSS"> 
+        <link rel="stylesheet" href="../mediaqueries.CSS">
+    </head>
+    <body style="margin: 1rem; width: 100%;">
+        <nav id = "desktop-nav" style="border-bottom: 2px solid rgb(53, 53, 53); height: 13vh; margin: 0.5rem;">
+            <div class="project-logo">
+                <a href="../index.html#projects">BACK</a>
+                <div class="project-pageHeader">
+                    <h5>Projects by</h5>
+                    <p>Aravinda</p>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="mailto:aravinda.ketipe@gmail.com" target="_blank">
+                        <div class="contact-info-container">
+                            <img src="../Assets/email.png" alt="email icon" class="icon contact-icon email-icon" />
+                        </div>
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/aravinda-ketipe/" target="_blank">
+                        <div class="contact-info-container">
+                            <img src="../Assets/linkedin.png" alt="email icon" class="icon contact-icon email-icon" />
+                        </div>
+                </a></li>
+                <li><a href="https://github.com/Araavinda" target="_blank">
+                        <div class="contact-info-container">
+                            <img src="../Assets/github.png" alt="email icon" class="icon contact-icon email-icon" />
+                        </div>
+                </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="project3_moredetails">
+            <div class="moredetails_text">
+                <h1>Active Directory Project</h1>
+                <h1>With Splunk</h1>
+                <p class="project2__text">
+                    &nbsp;&nbsp;&nbsp;&nbsp;This project was done in a Virtual Environment using the Open Source Virtualization software <b>VirtualBox</b>. Created a seprate NAT Network assigned for this project and configured the 4 virtual machines' network settings to be in the NAT Network. The network topology used in the project is shown in the picture to the right.
+                </p>
+                <p class="project2__text">The following were intalled and configured</p>
+                <ul class="project2_list">
+                    <li>Windows Server 2022</li>
+                    <li>Winows 10 Pro</li>
+                    <li>Ubuntu 22.04.4 LTS Server</li>
+                    <li>Splunk</li>
+                    <li>Sysmon</li>
+                </ul>
+            </div>
+            <div class="moredetails_pic">
+                <img src="../Assets/AD_topology copy.png" alt="Aravinda profile picture"
+                />
+            </div>
+        </div>
+        <div class="project__moredetails">
+            <header class="project_items">
+                <h3>Things done</h3>
+            </header>
+            <div class="project_posts">
+                <div class="project_post_container">
+                    <div class="project_post_img">
+                        <img src="../Assets/VirtualBox_Win10_27_07_2024_12_39_01.png" alt="Aravinda profile picture"
+                />
+                    </div>
+                    <h4>Windows 10 Pro</h4>
+                    <p>Downloaded a Windows 10 Pro ISO from the Microsoft and installed. Changed the PC name, network settings to match the NAT Network used for the project, downloaded Sysmon64 and installed with olaf config file, downloaded splunk forwarder and installed with the right host IP and port number </p>
+                </div>
+                <div class="project_post_container">
+                    <div class="project_post_img">
+                        <img src="../Assets/AD_after_adding_users.png" alt="Aravinda profile picture"/>
+                    </div>
+                    <h4>Windows Server 2022</h4>
+                    <p>Downloaded and installed the iso file downloaded from the Microsoft Official website. Configured the network settings including, giving a static IP, Default gateway, and DNS server IP. Additionally downloaded and installed Sysmon and Splunk Forwarder according to the network topology and listening port</p>
+                </div>
+                <div class="project_post_container">
+                    <div class="project_post_img">
+                        <img src="../Assets/ubuntu IP change_nano.png" alt="Aravinda profile picture"
+                />
+                    </div>
+                    <h4>Ubuntu 22.04.4 LTS</h4>
+                    <p>Downloaded this iso and added and installed the VM in virtualbox. Changed the static IP and Default Gateway for the server. Installed vboxsf and virtualbox-guest-additions to be able to use Splunk in this Server. Installed Splunk and configured the Ubuntu Server to start Splunk Server when the VM's turned on </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>2024 by Aravinda Ketipearachchi. Designes by @howtobecomeadeveloper(YT) and html5up./p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
