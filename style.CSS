@@ -384,6 +384,7 @@ p {
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
+    height: 95vh;
 }
 
 .experience-sub-title {
@@ -424,6 +425,7 @@ article.icon {
 #projects {
     position: relative;
     margin-top: 0;
+    height: 60vh;
 }
 
 .color-container {
@@ -454,7 +456,7 @@ article.icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 40vh;
 }
 
 .contact-info-upper-container {
