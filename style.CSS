@@ -507,8 +507,20 @@ footer p {
 /* PROJECT PAGES */
 
 /* project NAV */
+
+#project_desktop-nav {
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(53, 53, 53); 
+    height: 11vh; 
+    margin: 0.5rem;
+}
+
 .project-logo {
     width: 500px;
+    display: block;
+    /* height: 10vh; */
+    padding-top: 1rem;
     position: relative;
 }
 
@@ -520,6 +532,7 @@ footer p {
     border: 1px solid rgb(53, 53, 53);
     border-radius: 10px;
     background-color: darkgray;
+    margin-top: 0rem;
 }
 
 
@@ -564,6 +577,7 @@ footer p {
 .project-pageHeader {
     display: flex;
     position: relative;
+    margin-bottom: 1rem;
 }
 
 .project-pageHeader h5 {
