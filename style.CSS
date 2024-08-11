@@ -504,23 +504,34 @@ footer p {
 }
 
 
+
+
+
+
+
+
+
+
 /* PROJECT PAGES */
 
 /* project NAV */
 
-#project_desktop-nav {
-    justify-content: space-around;
+#project-nav {
+    justify-content: space-between;
+    width: 95%;
+    display: flex;
     align-items: center;
     border-bottom: 2px solid rgb(53, 53, 53); 
-    height: 11vh; 
-    margin: 0.5rem;
+    height: 12vh; 
+    margin: 0.8rem;
+    padding-left: 2rem;
 }
 
 .project-logo {
     width: 500px;
+    height: 12vh;
     display: block;
-    /* height: 10vh; */
-    padding-top: 1rem;
+    gap: 2rem;
     position: relative;
 }
 
@@ -532,9 +543,35 @@ footer p {
     border: 1px solid rgb(53, 53, 53);
     border-radius: 10px;
     background-color: darkgray;
-    margin-top: 0rem;
+    margin-top: 0.2rem;
 }
 
+.project-pageHeader {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    height: 6vh;
+    width: auto;
+    justify-content: left;
+    margin-top: 1.7rem;
+    padding-left: 2rem;
+}
+
+.project-pageHeader h5 {
+    font-size: 16px;
+}
+
+.project-pageHeader p {
+    height: 4vh;
+    font-size: 30;
+}
+
+.project-nav-links {
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
 
 
 .project3_moredetails {
@@ -572,24 +609,6 @@ footer p {
 .moredetails_text {
     max-width: 600px;
     font-size: 1.2rem;
-}
-
-.project-pageHeader {
-    display: flex;
-    position: relative;
-    margin-bottom: 1rem;
-}
-
-.project-pageHeader h5 {
-    bottom: 0;    
-    margin-top: 3rem;
-    font-size: 18px;
-}
-
-.project-pageHeader p {
-    font-size: 30px;
-    padding-left: 1rem;
-    margin-top: 2.5rem;
 }
 
 #project__moredetails{
